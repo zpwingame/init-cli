@@ -32,6 +32,7 @@ program.version('1.0.0', '-v, --version')
                     } else {
                         console.log(symbols.success, chalk.green('项目初始化完成'));
                     }
+                    spinner.stop();
                 })
             })
         } else {
